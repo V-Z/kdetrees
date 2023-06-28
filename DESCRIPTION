@@ -21,3 +21,4 @@ Imports:
     hgm
 URL: http://github.com/grady/kdetrees
 LazyData: TRUE
+RoxygenNote: 7.2.3

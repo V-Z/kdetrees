@@ -1,6 +1,8 @@
 ### Copyright (C) 2014 -- Grady Weyenberg ###
 
-##' kdetrees
+##' kdetrees: An R Package for Kernel Density Estimation on Phylogenetic Trees
+##' 
+##' The kdetrees package provides functions for kernel density estimation on phylogenetic trees.
 ##' 
 ##' @docType package
 ##' @name kdetrees-package
@@ -9,7 +11,6 @@
 ##' @importFrom hgm hgm.ncorthant hgm.Rhgm
 ##' @import ggplot2
 NULL
-
 
 ##' Apicomplexa gene trees sample data set.
 ##' 

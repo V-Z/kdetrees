@@ -40,6 +40,7 @@ Northant <- function(n){
 ##' for centered on the trees with bandwidths bw.
 ##' @param trees list of trees at which kernels will be centered
 ##' @param bw bandwidth for each kernel
+##' @param hgm logical, if TRUE uses the HGM method, if FALSE uses a different method (default is TRUE)
 ##' @return a vector of kernel integration constant lower bounds
 ##' @author Grady Weyenberg
 bhv.consts <- function(trees,bw, hgm=TRUE){

@@ -15,6 +15,8 @@
 ##' for more details.
 ##'
 ##' @title Identify discordant trees in a sample
+##' @importFrom graphics hist
+##' @importFrom stats cophenetic density dist integrate median quantile
 ##' @param trees multiPhylo object
 ##' @param k IQR multiplier for outlier detection
 ##' @param distance Select "geodesic" or "dissimilarity" distance
@@ -24,6 +26,7 @@
 ##' @param topo.only set all branch lengths to 1 before analyzing?
 ##' @param bw see Details
 ##' @param greedy greedy outlier detection?
+##' @param hgm Logical, if TRUE, the function does something. Default is FALSE.
 ##' @param ... additional arguments for distance calculation function, see details
 ##' @return a kdetrees object; list(density,outliers)
 ##' @author Grady Weyenberg
@@ -143,6 +146,7 @@ cutoff <- function(x, k = 1.5){
 ##' controlled by optional arguments.
 ##'
 ##' @title Complete kdetrees analysis convenience function
+##' @importFrom utils write.csv write.table
 ##' @param infile newick file with trees
 ##' @param ... additional parameters for kdetrees
 ##' @param treeoutfile write outlier trees in newick format to this file
