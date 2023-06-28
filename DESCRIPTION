@@ -11,7 +11,7 @@ Description: A non-parametric method for identifying potential
     may indicate problems with sequence annotation or tree
     reconstruction, or they may represent interesting biological
     phenomena, such as horizontal gene transfers.
-License: GPL-2
+License: file LICENSE
 Depends:
     R (>= 2.15.1)
 Imports:
