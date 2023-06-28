@@ -4,7 +4,7 @@ Title: Nonparametric method for identifying discordant phylogenetic trees
 Version: 2.0.1
 Date: 2016-05-09
 Author: Grady Weyenberg and Ruriko Yoshida
-Maintainer: Grady Weyenberg <grady.weyenberg@bristol.ac.uk>
+Maintainer: Vojtěch Zeisek <vojta@trapa.cz>
 Description: A non-parametric method for identifying potential
     outlying observations in a collection of phylogenetic trees based
     on the methods of Owen and Provan (2011). Such discordant trees
@@ -19,6 +19,7 @@ Imports:
     distory,
     ggplot2,
     hgm
-URL: http://github.com/grady/kdetrees
+URL: https://github.com/V-Z/kdetrees
 LazyData: TRUE
 RoxygenNote: 7.2.3
+Encoding: UTF-8
